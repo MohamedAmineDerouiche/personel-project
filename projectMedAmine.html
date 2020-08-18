@@ -5,12 +5,13 @@
 	<title>Enjoy your meal</title>
 	<meta charset="utf-8">
 	<script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+	<!--this the linck to connect html file with jquery library-->
 	<link rel="stylesheet" type="text/css" href="projectMedAmine.css">
 	<!--this the linck to connect html file with css file-->
-	<h1>ENJOY YOUR MEAL</h1>
+	<h1 id='enj'>ENJOY YOUR MEAL</h1>
 
 	
-	<!--this the linck to connect html file with jquery library-->
+
 </head>
 <body>
 	
@@ -18,7 +19,7 @@
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
-    <input class="name" value="user" type="text" placeholder="Enter Username" name="uname" required>
+    <input class="name"  type="text" placeholder="Enter Username" name="uname" required>
 
     
 
@@ -27,19 +28,12 @@
       <input type="checkbox" checked="checked" name="remember">Remember me
     </label>
   </div><br>
-
+<!--this is for the username-->
  
-  <div class='welcome'> <h1>welcome </h1> </div>
+  <div class='welcome'> <h1>welcome mohamed </h1> </div>
   
 
-  <div id= "div1">
-  	<h1>what color theme you'd like to view the web page in?Make it in your sauce</h1>
-  	
-  	 <label for='theme'>Enter your theme</label>
-  	<input id= 'theme' type="text" name="theme">
-
-  	<button>Submit</button> 
-  </div>
+  
 
 
 <div id="text">
@@ -110,54 +104,62 @@ src="https://www.youtube.com/embed/VEEF2EonZJc">
 </iframe>
 <!--this is the field where the client will push his favorite theme -->
 
-<!--I put this button to choosing the theme -->
-
 <script src="projectMedAmine.js"></script>
 
 <div class="meatimage">
     <h1 id="meat" >Meat meals</h1>
 	<h2><a href="https://www.greatbritishchefs.com/recipes/braised-beef-cheek-pickled-walnuts" target="_blank">Braised beef cheek with anchovy, pickled walnuts and mash</a></h2>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfYyocpT0P7ISHj2gdtZo0Xq0HAaO3zwRhAA&usqp=CAU" height="300" width="350"><br>
+<a href="https://www.greatbritishchefs.com/recipes/braised-beef-cheek-pickled-walnuts" target="_blank"><img id="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfYyocpT0P7ISHj2gdtZo0Xq0HAaO3zwRhAA&usqp=CAU" height="300" width="350"></a><br>
+
 <h2><a href="https://www.greatbritishchefs.com/recipes/scallops-beef-recipe" target="_blank">Scallops with pale ale-braised beef, butternut squash and sage brown butter</a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img16157.768x512.jpg" height="300" width="350"><br>
+<a href="https://www.greatbritishchefs.com/recipes/scallops-beef-recipe" target="_blank"><img id="image2"  src="https://gbc-cdn-public-media.azureedge.net/img16157.768x512.jpg" height="300" width="350"></a><br>
+
 <h2><a href="https://www.greatbritishchefs.com/recipes/beef-fillet-ox-cheek-nettle-recipe" target="_blank">Fillet of beef with ox cheek, nettle purée and sauce diable</a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img83941.768x512.jpg" height="300" width="350">	
+<a href="https://www.greatbritishchefs.com/recipes/beef-fillet-ox-cheek-nettle-recipe" target="_blank"><img id="image3" src="https://gbc-cdn-public-media.azureedge.net/img83941.768x512.jpg" height="300" width="350"></a>	
 
 
 </div>
 <div class="fishimage">
     <h1 id="fish" >Fish meals</h1>
 	<h2><a href="https://www.greatbritishchefs.com/recipes/sea-bass-lemon-verbena-recipe" target="_blank">Pan-fried sea bass with lemon verbena</a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img43518.768x512.jpg" height="300" width="350"><br>
+<a href="https://www.greatbritishchefs.com/recipes/sea-bass-lemon-verbena-recipe" target="_blank"><img id="image5" src="https://gbc-cdn-public-media.azureedge.net/img43518.768x512.jpg" height="300" width="350"></a><br>
 <h2><a href="https://www.greatbritishchefs.com/recipes/smoked-salmon-leek-quiche-recipe" target="_blank">Smoked salmon and leek quiche
 </a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img62081.768x512.jpg" height="300" width="350"><br>
+<a href="https://www.greatbritishchefs.com/recipes/smoked-salmon-leek-quiche-recipe" target="_blank"><img id="image6"src="https://gbc-cdn-public-media.azureedge.net/img62081.768x512.jpg" height="300" width="350"></a><br>
+
 <h2><a href="https://www.greatbritishchefs.com/recipes/haddock-fennel-shrimp-recipe" target="_blank">Brown butter-baked haddock with braised fennel, fennel velouté and brown shrimp</a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img84349.768x512.jpg" height="300" width="350">	
+<a href="https://www.greatbritishchefs.com/recipes/haddock-fennel-shrimp-recipe" target="_blank"><img id="image7" src="https://gbc-cdn-public-media.azureedge.net/img84349.768x512.jpg" height="300" width="350"></a>
+
 </div>
 
 <div class="pastaimage">
     <h1 id="pasta" >Pasta meals</h1>
 	<h2><a href="https://www.greatbritishchefs.com/recipes/avocado-pesto-recipe" target="_blank">Avocado pesto with fusilli</a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img61637.768x512.jpg" height="300" width="350"><br>
+<a href="https://www.greatbritishchefs.com/recipes/avocado-pesto-recipe" target="_blank"><img id="image8" src="https://gbc-cdn-public-media.azureedge.net/img61637.768x512.jpg" height="300" width="350"></a><br>
+
 <h2><a href="https://www.greatbritishchefs.com/recipes/pesto-rosso-fusilli-with-cherry-tomatoes-and-basil" target="_blank">Pesto rosso fusilli with cherry tomatoes and basil
 </a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img68506.768x512.jpg" height="300" width="350"><br>
+<a href="https://www.greatbritishchefs.com/recipes/pesto-rosso-fusilli-with-cherry-tomatoes-and-basil" target="_blank"><img id="image9" src="https://gbc-cdn-public-media.azureedge.net/img68506.768x512.jpg" height="300" width="350"></a><br>
+
 <h2><a href="https://www.greatbritishchefs.com/recipes/crab-ravioli-recipe" target="_blank">Crab ravioli</a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img27462.768x512.jpg" height="300" width="350">	
+<a href="https://www.greatbritishchefs.com/recipes/crab-ravioli-recipe" target="_blank"><img id="image10" src="https://gbc-cdn-public-media.azureedge.net/img27462.768x512.jpg" height="300" width="350"></a>	
 </div>
 
 <div class="saladimage">
     <h1 id="salad" >salad meals</h1>
 	<h2><a href="https://www.greatbritishchefs.com/recipes/salad-nicoise-recipe" target="_blank">Salade Niçoise
 </a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img26982.768x512.jpg" height="300" width="350"><br>
+<a href="https://www.greatbritishchefs.com/recipes/salad-nicoise-recipe" target="_blank"><img id="image11" src="https://gbc-cdn-public-media.azureedge.net/img26982.768x512.jpg" height="300" width="350"></a><br>
+
 <h2><a href="https://www.greatbritishchefs.com/recipes/english-garden-salad-recipe" target="_blank">English garden salad
 </a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img63527.768x512.jpg" height="300" width="350"><br>
+<a href="https://www.greatbritishchefs.com/recipes/english-garden-salad-recipe" target="_blank"><img id="image12" src="https://gbc-cdn-public-media.azureedge.net/img63527.768x512.jpg" height="300" width="350"></a><br>
+
 <h2><a href="https://www.greatbritishchefs.com/collections/beetroot-salad-recipes" target="_blank">Beetroot salad recipes</a></h2>
-<img src="https://gbc-cdn-public-media.azureedge.net/img59568.1426x713.jpg" height="300" width="350">	
-</div>
+<a href="https://www.greatbritishchefs.com/collections/beetroot-salad-recipes" target="_blank"><img id="image13" src="https://gbc-cdn-public-media.azureedge.net/img59568.1426x713.jpg" height="300" width="350"></a>	
+</div><br>
+
+<p>THANK YOU FOR YOUR SUPPORT</p>
 
 
 </body>

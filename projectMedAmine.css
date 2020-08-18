@@ -6,6 +6,8 @@ body{
    margin: 0;
   font-family: Arial;
   font-size: 17px;
+  background-color: black;
+  font-style: italic;
 }
 h1{
 	color: #DC143C;
@@ -38,7 +40,6 @@ h2{
   cursor: pointer;
   width: 10%;
 }
-/*.welcome{
-	display: none;
-
-}*/
+a{
+	background-color: black;
+}
