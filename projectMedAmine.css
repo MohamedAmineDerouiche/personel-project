@@ -1,6 +1,44 @@
 body{
-	  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQo2Ia87N5BYXBHth64rROk1aUCH_ELTwf8XQ&usqp=CAU');
-  background-repeat: no-repeat;
+	background-clip: ;
+	  background-image: url('https://lh6.googleusercontent.com/-nQAB5diIWLs/VM1HdbqjTiI/AAAAAAAAB74/KwySVDN-6YY/s1600/hd-wallpapers-1080p-design-ideas-hd-wallpapers-wood-blue.jpg');
   background-attachment: fixed;
   background-size: cover;
+   margin: 0;
+  font-family: Arial;
+  font-size: 17px;
 }
+h1{
+	color: #DC143C;
+}
+p{
+	text-indent: 25px;
+  text-align: right;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 25px;
+}
+h2{
+	 text-align: left;
+  text-transform: uppercase;
+  color: rgb(207, 81, 112);
+}
+<!--#text{
+	border: 10px double gray;
+  padding: 8px;
+}
+.container{
+	color: rgb(142, 155, 216);
+}
+#loginUser {
+  background-color: rgb(142, 155, 216);
+  color: black;
+  padding: 10px 20px;
+  margin: 12px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+/*.welcome{
+	display: none;
+
+}*/
